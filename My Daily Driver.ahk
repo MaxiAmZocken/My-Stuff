@@ -74,5 +74,3 @@ MouseClickDrag, Left, 1010, 738, 800, 740
 Click, 1180, 710
 Click, 546, 354
 return
-
-;Toastbrot
