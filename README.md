@@ -23,4 +23,4 @@ __Download Links__
 - AutoHotkey : https://autohotkey.com/
 - Notepad++ : https://notepad-plus-plus.org/downloads/
 
-Some Videos of me showing these scripts coming soon ....
+_Some Videos of me showing these scripts coming soon ...._
