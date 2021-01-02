@@ -1,4 +1,4 @@
-__Here you can find some code i programmed, most of this is programmed in AutoHotkey. To code in ahk I use a program called notepad++.__
+__Here you can find some code i programmed, most of this is programmed in AutoHotkey. To code in ahk I use a program called Visual Studio Code.__
 All Programs are listed down below
 
 __My Computer__
@@ -21,6 +21,6 @@ __My Equipment__
 __Download Links__
 
 - AutoHotkey : https://autohotkey.com/
-- Notepad++ : https://notepad-plus-plus.org/downloads/
+- Visual Studio Code : https://code.visualstudio.com/
 
 _Some Videos of me showing these scripts coming soon ...._
