@@ -5,10 +5,6 @@ Send, +{F2} ;in Rainbow Six you need to press Shift+F2 to open the ingame menu
 return
 
 Scrolllock::
-Run, notepad++.exe ;just opens Notepad++
-return
-
-+Scrolllock::
 Run, "C:\Users\Nutzer\AppData\Local\Programs\Microsoft VS Code\Code.exe"
 return
 
@@ -74,3 +70,7 @@ MouseClickDrag, Left, 1010, 738, 800, 740
 Click, 1180, 710
 Click, 546, 354
 return
+
+;------------------- G Keys on my Keyboard -------------------
+
+^F1:: 
