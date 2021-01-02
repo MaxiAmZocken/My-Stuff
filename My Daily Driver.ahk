@@ -4,8 +4,11 @@ F2::
 Send, +{F2} ;in Rainbow Six you need to press Shift+F2 to open the ingame menu
 return
 
-Scrolllock::
-Run, "C:\Users\Nutzer\AppData\Local\Programs\Microsoft VS Code\Code.exe"
+#IfWinNotExist
+Scrolllock:: 
+IfWinNotExist, ahk_exe code.exe 
+	Run, "C:\Users\Nutzer\AppData\Local\Programs\Microsoft VS Code\Code.exe"
+WinActivate, ahk_exe code.exe
 return
 
 ;------------------- Touch Portal -------------------
@@ -73,4 +76,23 @@ return
 
 ;------------------- G Keys on my Keyboard -------------------
 
+#IfWinNotExist
 ^F1:: 
+IfWinNotExist, ahk_exe opera.exe
+	Run, opera.exe
+if WinActive("ahk_exe opera.exe")
+	Send ^{PgDn} 
+WinActivate ahk_exe opera.exe
+return
+
+^F2::
+IfWinNotExist, ahk_exe spotify.exe
+	Run, C:\Users\Nutzer\AppData\Roaming\Spotify\Spotify.exe
+WinActivate, ahk_exe spotify.exe
+return
+
+^F3::
+IfWinNotExist, ahk_class CabinetWClass
+	Run, Explorer.exe
+WinActivate, ahk_class CabinetWClass
+return
