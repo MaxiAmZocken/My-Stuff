@@ -1,7 +1,6 @@
-__Here you can find some code i programmed, most of this is programmed in AutoHotkey__
+__Here you can find some code i programmed, most of this is programmed in AutoHotkey. To code in ahk I use a program called notepad++.__
 
-The Editor I use to code in ahk is Notepad++
-You can download Notepad++ here : https://notepad-plus-plus.org/downloads/
+All Programs are listed down below
 
 __Download Links__
 
