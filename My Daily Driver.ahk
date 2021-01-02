@@ -22,7 +22,7 @@ Click, 386, 153
 MouseMove, %xpos%, %ypos%
 return
 
-F15:: ;this script opens the first crate 
+F15:: ;this script opens the first crate in jailbreak
 Click, 65, 740
 Sleep, 300
 Click, 800, 820
