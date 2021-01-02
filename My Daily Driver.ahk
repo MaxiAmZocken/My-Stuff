@@ -11,7 +11,7 @@ IfWinNotExist, ahk_exe code.exe
 WinActivate, ahk_exe code.exe
 return
 
-;------------------- Touch Portal -------------------
+;------------------- Touch Portal on iPad -------------------
 
 F14:: ;this is a script to spawn the pickup in jailbreak
 MouseGetPos, xpos, ypos 
