@@ -16,7 +16,7 @@ return
 F14:: ;this is a script to spawn the pickup in jailbreak
 MouseGetPos, xpos, ypos 
 Click, 138, 790
-Sleep, 380
+Sleep, 420
 Click, 1266, 377
 Click, 386, 153
 MouseMove, %xpos%, %ypos%
