@@ -74,8 +74,7 @@ Click, 1180, 710
 Click, 546, 354
 return
 
-;------------------- G Keys on my Keyboard -------------------
-
+;------------------- G Keys on my Keyboard ------------------
 #IfWinNotExist
 ^F1:: ;this script opens opera if its not opened and switch between tabs if opened
 IfWinNotExist, ahk_exe opera.exe
