@@ -11,6 +11,28 @@ IfWinNotExist, ahk_exe code.exe
 WinActivate, ahk_exe code.exe
 return
 
+#MaxThreadsPerHotkey 2
+F24::
+Toggle := !Toggle
+loop
+{
+    If not Toggle
+        break
+    Send, {RButton}
+}
+return
+
+#MaxThreadsPerHotkey 2
+F23::
+Toggle := !Toggle
+loop
+{
+    If not Toggle
+        break
+    Click,
+}
+return
+
 ;------------------- Touch Portal on iPad -------------------
 
 F14:: ;this is a script to spawn the pickup in jailbreak
