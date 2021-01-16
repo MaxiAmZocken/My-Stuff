@@ -8,7 +8,7 @@ __My Computer__
 - RAM : Crucial Ballistix Sport 2x8GB
 - SDD : Kingston A400 SSD 240GB
 - HDD 1 : Toshiba P300 Desktop PC 1TB
-- HDd 2 : Seagate Barracuda 2TB
+- HDD 2 : Seagate Barracuda 2TB
 
 __My Equipment__
 
