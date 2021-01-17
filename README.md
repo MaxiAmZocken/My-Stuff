@@ -7,13 +7,15 @@ __My Computer__
 - GPU : Gainward GTX 1660 OC
 - RAM : Crucial Ballistix Sport 2x8GB
 - SDD : Kingston A400 SSD 240GB
-- HDD : Toshiba P300 Desktop PC 1TB
+- HDD 1 : Toshiba P300 Desktop PC 1TB
+- HDD 2 : Seagate Barracuda 2TB
 
 __My Equipment__
 
-- Keyboard : Logitech G910
-- Keyboard : Royal Kludge RK61
-- Mouse : Logitech G502
+- Keyboard 1 : Logitech G910
+- Keyboard 2 : Royal Kludge RK61
+- Mouse 1 : Glorious Model O
+- Mouse 2 : Logitech G502
 - Tablet : Apple iPad Air 4 (2020)
 - Cam : Canon EOS 1300D (With EOS Webcam Utility)
 - Controller : Custom Xbox Design Lab Controller
