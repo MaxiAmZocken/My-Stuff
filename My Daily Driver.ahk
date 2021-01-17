@@ -5,13 +5,23 @@ Send, +{F2} ;in Rainbow Six you need to press Shift+F2 to open the ingame menu
 return
 
 #IfWinNotExist
-Scrolllock:: 
+Scrolllock:: ;open vsc 
 IfWinNotExist, ahk_exe code.exe 
 	Run, "C:\Users\Nutzer\AppData\Local\Programs\Microsoft VS Code\Code.exe"
 WinActivate, ahk_exe code.exe
 return
 
-;------------------- Touch Portal on iPad -------------------
+!Enter::
+Send, e
+MouseMove, 1103, 676
+Send, {Shift}+{LButton}
+MouseClickDrag, Left, 853, 678, 975, 477
+Click,
+MouseMove, 1087, 461
+Send, {Shift}+{LButton}
+return
+
+------------------- Touch Portal on iPad -------------------
 
 F14:: ;this is a script to spawn the pickup in jailbreak
 MouseGetPos, xpos, ypos 
