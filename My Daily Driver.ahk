@@ -21,6 +21,33 @@ MouseMove, 1087, 461
 Send, {Shift}+{LButton}
 return
 
+;------------------- G Keys on my Keyboard ------------------
+
+#IfWinNotExist
+^F1:: ;this script opens opera if its not opened and switch between tabs if opened
+IfWinNotExist, ahk_exe opera.exe
+	Run, opera.exe
+if WinActive("ahk_exe opera.exe")
+	Send ^{PgDn} 
+WinActivate ahk_exe opera.exe
+return
+
+^F2:: ;this script opens spotify
+IfWinNotExist, ahk_exe spotify.exe
+	Run, C:\Users\Nutzer\AppData\Roaming\Spotify\Spotify.exe
+WinActivate, ahk_exe spotify.exe
+return
+
+^F3:: ;this script opens the explorer
+IfWinNotExist, ahk_class CabinetWClass
+	Run, Explorer.exe
+WinActivate, ahk_class CabinetWClass
+return
+
+^F4::
+Send, {!}m {@}angiii{#}0573 up {enter}
+return
+
 ------------------- Touch Portal on iPad -------------------
 
 F14:: ;this is a script to spawn the pickup in jailbreak
@@ -82,31 +109,4 @@ Click, 1134, 708
 MouseClickDrag, Left, 1010, 738, 800, 740
 Click, 1180, 710
 Click, 546, 354
-return
-
-;------------------- G Keys on my Keyboard ------------------
-
-#IfWinNotExist
-^F1:: ;this script opens opera if its not opened and switch between tabs if opened
-IfWinNotExist, ahk_exe opera.exe
-	Run, opera.exe
-if WinActive("ahk_exe opera.exe")
-	Send ^{PgDn} 
-WinActivate ahk_exe opera.exe
-return
-
-^F2:: ;this script opens spotify
-IfWinNotExist, ahk_exe spotify.exe
-	Run, C:\Users\Nutzer\AppData\Roaming\Spotify\Spotify.exe
-WinActivate, ahk_exe spotify.exe
-return
-
-^F3:: ;this script opens the explorer
-IfWinNotExist, ahk_class CabinetWClass
-	Run, Explorer.exe
-WinActivate, ahk_class CabinetWClass
-return
-
-^F4::
-Send, {!}m {@}angiii{#}0573 up {enter}
 return
