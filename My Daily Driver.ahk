@@ -11,17 +11,7 @@ IfWinNotExist, ahk_exe code.exe
 WinActivate, ahk_exe code.exe
 return
 
-!Enter::
-Send, e
-MouseMove, 1103, 676
-Send, {Shift}+{LButton}
-MouseClickDrag, Left, 853, 678, 975, 477
-Click,
-MouseMove, 1087, 461
-Send, {Shift}+{LButton}
-return
-
-;------------------- G Keys on my Keyboard ------------------
+;------------------- Program Opener + Switcher ------------------
 
 #IfWinNotExist
 ^F1:: ;this script opens opera if its not opened and switch between tabs if opened
@@ -44,11 +34,17 @@ IfWinNotExist, ahk_class CabinetWClass
 WinActivate, ahk_class CabinetWClass
 return
 
-^F4::
+^F4:: ;this is not a program, but i put it here because it's Strg+F4
 Send, {!}m {@}angiii{#}0573 up {enter}
 return
 
-------------------- Touch Portal on iPad -------------------
+^F5:: ;this script opens discord
+IfWinNotExist, ahk_exe Discord.exe
+	Run, Discord.exe
+WinActivate, ahk_exe Discord.exe
+return
+
+------------------- Roblox Makros -------------------
 
 F14:: ;this is a script to spawn the pickup in jailbreak
 MouseGetPos, xpos, ypos 
