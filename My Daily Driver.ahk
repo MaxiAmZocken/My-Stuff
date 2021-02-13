@@ -11,7 +11,7 @@ IfWinNotExist, ahk_exe code.exe
 WinActivate, ahk_exe code.exe
 return
 
-;------------------- Program Opener + Switcher ------------------
+;------------------- Program Switcher & Other Stuff ------------------
 
 #IfWinNotExist
 ^F1:: ;this script opens opera if its not opened and switch between tabs if opened
@@ -36,7 +36,7 @@ return
 
 ^F4:: ;this is not a program, but i put it here because it's Strg+F4
 Send, {!}m {@}angiii{#}0573 up {enter}
-Send, {§}reminder Angi upvote 30 minutes
+Send, {§}reminder Angi upvote 30 minutes {enter}
 return
 
 ^F5:: ;this script opens discord
