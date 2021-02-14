@@ -36,6 +36,7 @@ return
 
 ^F4:: ;this is not a program, but i put it here because it's Strg+F4
 Send, {!}m {@}angiii{#}0573 up {enter}
+Sleep, 500
 Send, {§}reminder Angi upvote 30 minutes {enter}
 return
 
