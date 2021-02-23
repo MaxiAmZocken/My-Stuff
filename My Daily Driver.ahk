@@ -56,8 +56,6 @@ Sleep, 2000
 Send, high {enter}
 Sleep, 2000
 Send, pls search {enter}
-Sleep, 45000
-MsgBox, 45 seconds are over !
 return
 
 
