@@ -59,7 +59,23 @@ Send, pls search {enter}
 return
 
 
-^F6:: ;this script opens discord
+^F6:: ;dank memer script to sell stuff
+Send, pls sell skunk max {enter}
+Sleep, 2000
+Send, pls sell fish max {enter}
+Sleep, 2000
+Send, pls sell boar max {enter}
+Sleep, 2000
+Send, pls sell rarefish max {enter}
+Sleep, 2000
+Send, pls sell deer max {enter}
+Sleep, 2000
+Send, pls sell sand max {enter}
+Sleep, 2000
+Send, pls sell duck max {enter}
+return
+
+^F7:: ;this script opens discord
 IfWinNotExist, ahk_exe Discord.exe
 	Run, Discord.exe
 WinActivate, ahk_exe Discord.exe
