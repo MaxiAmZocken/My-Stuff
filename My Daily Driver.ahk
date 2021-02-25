@@ -14,7 +14,7 @@ return
 ;------------------- Program Switcher & Other Stuff ------------------
 
 #IfWinNotExist
-^F1:: ;this script opens opera if its not opened and switch between tabs if opened
+^F13:: ;this script opens opera if its not opened and switch between tabs if opened
 IfWinNotExist, ahk_exe opera.exe
 	Run, opera.exe
 if WinActive("ahk_exe opera.exe")
@@ -22,13 +22,13 @@ if WinActive("ahk_exe opera.exe")
 WinActivate ahk_exe opera.exe
 return
 
-^F2:: ;this script opens spotify
+^F14:: ;this script opens spotify
 IfWinNotExist, ahk_exe spotify.exe
 	Run, C:\Users\Nutzer\AppData\Roaming\Spotify\Spotify.exe
 WinActivate, ahk_exe spotify.exe
 return
 
-^F3:: ;this script opens the explorer
+^F15:: ;this script opens the explorer
 IfWinNotExist, ahk_class CabinetWClass
 	Run, Explorer.exe
 WinActivate, ahk_class CabinetWClass
@@ -40,7 +40,7 @@ Sleep, 500
 Send, {§}reminder Angi upvote 30 minutes {enter}
 return
 
-^F5:: ;this script sends all dank memer commands for fast money
+^F16:: ;this script sends all dank memer commands for fast money
 Send, pls Beg {enter}
 Sleep, 2000
 Send, pls hunt {enter}
@@ -59,7 +59,7 @@ Send, pls search {enter}
 return
 
 
-^F6:: ;dank memer script to sell stuff
+^F17:: ;dank memer script to sell stuff
 Send, pls sell skunk max {enter}
 Sleep, 2000
 Send, pls sell fish max {enter}
@@ -75,7 +75,7 @@ Sleep, 2000
 Send, pls sell duck max {enter}
 return
 
-^F7:: ;this script opens discord
+^F18:: ;this script opens discord
 IfWinNotExist, ahk_exe Discord.exe
 	Run, Discord.exe
 WinActivate, ahk_exe Discord.exe
