@@ -82,3 +82,7 @@ Sleep, 2000
 Send, pls sell duck max {enter}
 Sleep, 2000
 Send, pls 
+
+^F9:: ;just writes "join heist" for dank memer
+Send, join{space}heist{enter}
+return
