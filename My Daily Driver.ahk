@@ -28,29 +28,21 @@ IfWinNotExist, ahk_exe spotify.exe
 WinActivate, ahk_exe spotify.exe
 return
 
-^F3:: ;dank memer script to sell stuff
-Send, pls sell skunk max {enter}
-Sleep, 2000
-Send, pls sell fish max {enter}
-Sleep, 2000
-Send, pls sell boar max {enter}
-Sleep, 2000
-Send, pls sell rarefish max {enter}
-Sleep, 2000
-Send, pls sell deer max {enter}
-Sleep, 2000
-Send, pls sell sand max {enter}
-Sleep, 2000
-Send, pls sell duck max {enter}
+^F3:: 
+Send, {^F3}
 return
 
-^F4:: ;this is not a program, but i put it here because it's Strg+F4
-Send, {!}m {@}angiii{#}0573 up {enter}
-Sleep, 500
-Send, {§}reminder Angi upvote 30 minutes {enter}
+^F4:: 
+Send, {^F4}
 return
 
-^F5:: ;this script sends all dank memer commands for fast money
+^F5:: ;this opens discord
+IfWinNotExist, ahk_exe Discord.exe
+	Run, Discord.exe
+WinActivate, ahk_exe Discord.exe
+return
+
+^F6:: ;this script sends all dank memer commands for fast money
 Send, pls Beg {enter}
 Sleep, 2000
 Send, pls hunt {enter}
@@ -68,14 +60,25 @@ Sleep, 2000
 Send, pls search {enter}
 return
 
-^F6:: ;this script opens the explorer
-IfWinNotExist, ahk_class CabinetWClass
-	Run, Explorer.exe
-WinActivate, ahk_class CabinetWClass
+^F7:: ;script to vote for angi in discord
+Send, {!}m {@}angiii{#}0573 up {enter}
+Sleep, 500
+Send, {§}reminder Angi upvote 30 minutes {enter}
 return
 
-^F7:: ;this script opens discord
-IfWinNotExist, ahk_exe Discord.exe
-	Run, Discord.exe
-WinActivate, ahk_exe Discord.exe
-return
+^F8:: ;sell script for dank memer (discord)
+Send, pls sell skunk max {enter}
+Sleep, 2000
+Send, pls sell fish max {enter}
+Sleep, 2000
+Send, pls sell boar max {enter}
+Sleep, 2000
+Send, pls sell rarefish max {enter}
+Sleep, 2000
+Send, pls sell deer max {enter}
+Sleep, 2000
+Send, pls sell sand max {enter}
+Sleep, 2000
+Send, pls sell duck max {enter}
+Sleep, 2000
+Send, pls 
