@@ -24,5 +24,3 @@ __Download Links__
 
 - AutoHotkey : https://autohotkey.com/
 - Visual Studio Code : https://code.visualstudio.com/
-
-_Some Videos of me showing these scripts coming soon ...._
