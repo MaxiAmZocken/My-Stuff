@@ -1,4 +1,4 @@
-__Here you can find some code i programmed, most of this is programmed in AutoHotkey. To code in ahk I use a program called Visual Studio Code.__
+__Here you can find some code i programmed, most of this is programmed in AutoHotkey. To code in ahk I use a Visual Studio Code.__
 All Programs are listed down below
 
 __My Computer__
