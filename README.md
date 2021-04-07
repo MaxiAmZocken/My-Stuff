@@ -17,7 +17,7 @@ __My Equipment__
 - Mouse 1 : Glorious Model O
 - Mouse 2 : Logitech G502
 - Tablet : Apple iPad Air 4 (2020)
-- Cam : Canon EOS 1300D (With EOS Webcam Utility)
+- Cam : Canon EOS 1300D (With [EOS Webcam Utility](https://www.canon.de/cameras/eos-webcam-utility/))
 - Controller : Custom Xbox Design Lab Controller
 
 __Download Links__
