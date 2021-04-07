@@ -1,8 +1,6 @@
 __Here you can find some code i programmed, most of this is programmed in AutoHotkey. To code in ahk I use a Visual Studio Code.__
 All Programs are listed down below
 
-[@MaxiAmZocken](https://github.com/MaxiAmZocken)
-
 __My Computer__
 
 - CPU : [AMD Ryzen 5 2600](https://www.amazon.de/AMD-YD2600BBAFBOX-Prozessor-RYZEN5-Socket/dp/B07B41WS48/ref=sr_1_1?__mk_de_DE=ÅMÅŽÕÑ&crid=2ELV3P57J7GHQ&dchild=1&keywords=amd+ryzen+5+2600&qid=1617836095&sprefix=amd+ryzen+5+%2Caps%2C174&sr=8-1)
