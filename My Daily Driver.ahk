@@ -1,7 +1,8 @@
 ﻿;------------------- Modifications -------------------
 
+#IfWinNotExist
 F2::
-Send, +{F2} ;in Rainbow Six you need to press Shift+F2 to open the ingame menu
+Send, {F2}
 return
 
 #IfWinNotExist
@@ -11,7 +12,7 @@ IfWinNotExist, ahk_exe code.exe
 WinActivate, ahk_exe code.exe
 return
 
-;------------------- Program Switcher & Other Stuff ------------------
+;------------------- G Keys on my Keyboard ------------------
 
 #IfWinNotExist
 ^F1:: ;this script opens opera if its not opened and switch between tabs if opened
