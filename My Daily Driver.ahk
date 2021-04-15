@@ -64,7 +64,7 @@ return
 ^F7:: ;script to vote for angi in discord
 Send, {!}m {@}angiii{#}0573 up {enter}
 Sleep, 500
-Send, {§}reminder Angi upvote 30 minutes {enter}
+Send, @Carl-bot{#}1536 reminder Angi upvote 30 minutes {enter}
 return
 
 ^F8:: ;sell script for dank memer (discord)
