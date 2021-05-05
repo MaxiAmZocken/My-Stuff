@@ -1,11 +1,6 @@
 ﻿;------------------- Modifications -------------------
 
 #IfWinNotExist
-F2::
-Send, {F2}
-return
-
-#IfWinNotExist
 Scrolllock:: ;open vsc 
 IfWinNotExist, ahk_exe code.exe 
 	Run, "C:\Users\Nutzer\AppData\Local\Programs\Microsoft VS Code\Code.exe"
@@ -30,7 +25,9 @@ WinActivate, ahk_exe spotify.exe
 return
 
 ^F3:: 
-Send, {^F3}
+Send, y {enter}
+Sleep, 5000
+Send, pls use cheese {enter}
 return
 
 ^F4:: 
@@ -62,8 +59,8 @@ Send, pls search {enter}
 return
 
 ^F7:: ;script to vote for angi in discord
-Send, {!}m {@}angiii{#}0573 up {enter}
-Sleep, 500
+Send, {!}m @angiii{#}0573 up {enter}
+Sleep, 600
 Send, @Carl-bot{#}1536 reminder Angi upvote 30 minutes {enter}
 return
 
