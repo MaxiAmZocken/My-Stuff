@@ -10,7 +10,7 @@ return
 ;------------------- G Keys on my Keyboard ------------------
 
 #IfWinNotExist
-^F1:: ;this script opens opera if its not opened and switch between tabs if opened
+^F1:: ;(G1) this script opens opera if its not opened and switch between tabs if opened
 IfWinNotExist, ahk_exe opera.exe
 	Run, opera.exe
 if WinActive("ahk_exe opera.exe")
@@ -18,29 +18,19 @@ if WinActive("ahk_exe opera.exe")
 WinActivate ahk_exe opera.exe
 return
 
-^F2:: ;this script opens spotify
+^F2:: ;(G2) this script opens spotify
 IfWinNotExist, ahk_exe spotify.exe
 	Run, C:\Users\Nutzer\AppData\Roaming\Spotify\Spotify.exe
 WinActivate, ahk_exe spotify.exe
 return
 
-^F3:: 
-Send, y {enter}
-Sleep, 5000
-Send, pls use cheese {enter}
-return
-
-^F4:: 
-Send, {^F4}
-return
-
-^F5:: ;this opens discord
+^F5:: ;(G5) this opens discord
 IfWinNotExist, ahk_exe Discord.exe
 	Run, Discord.exe
 WinActivate, ahk_exe Discord.exe
 return
 
-^F6:: ;this script sends all dank memer commands for fast money
+^F6:: ;(G6) this script sends all dank memer commands for fast money
 Send, pls Beg {enter}
 Sleep, 2000
 Send, pls hunt {enter}
@@ -60,13 +50,13 @@ Sleep, 2000
 Send, pls search {enter}
 return
 
-^F7:: ;script to vote for angi in discord
+^F7:: ;(G7) script to vote for angi in discord
 Send, {!}m @angiii{#}0573 up {enter}
 Sleep, 600
 Send, @Carl-bot{#}1536 reminder Angi upvote 30 minutes {enter}
 return
 
-^F8:: ;sell script for dank memer (discord)
+^F8:: ;(G8) sell script for dank memer (discord)
 Send, pls sell skunk max {enter}
 Sleep, 2000
 Send, pls sell fish max {enter}
@@ -83,6 +73,6 @@ Send, pls sell duck max {enter}
 Sleep, 2000
 Send, pls 
 
-^F9:: ;just writes "join heist" for dank memer
+^F9:: ;(G9) just writes "join heist" for dank memer
 Send, join{space}heist{enter}
 return
