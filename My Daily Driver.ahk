@@ -52,8 +52,8 @@ return
 
 ^F7:: ;(G7) script to vote for angi in discord
 Send, {!}m @angiii{#}0573 up {enter}
-Sleep, 600
-Send, @Carl-bot{#}1536 reminder Angi upvote 30 minutes {enter}
+Sleep, 500
+Send, @Carl-bot{#}1536 reminder You can upvote again 30 minutes {enter}
 return
 
 ^F8:: ;(G8) sell script for dank memer (discord)
@@ -71,7 +71,7 @@ Send, pls sell sand max {enter}
 Sleep, 2000
 Send, pls sell duck max {enter}
 Sleep, 2000
-Send, pls 
+Send, pls sell tidepod max {enter}
 
 ^F9:: ;(G9) just writes "join heist" for dank memer
 Send, join{space}heist{enter}
