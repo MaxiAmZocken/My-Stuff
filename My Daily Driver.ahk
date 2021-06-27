@@ -7,6 +7,13 @@ IfWinNotExist, ahk_exe code.exe
 WinActivate, ahk_exe code.exe
 return
 
+#IfWinNotExist
++Scrolllock:: ;open sublime text 
+IfWinNotExist, ahk_exe sublime_text.exe 
+	Run, "C:\Program Files\Sublime Text\sublime_text.exe"
+WinActivate, ahk_exe sublime_text.exe
+return
+
 ;------------------- G Keys on my Keyboard ------------------
 
 #IfWinNotExist
