@@ -24,7 +24,7 @@ __Software I use__
 
 - Editor : [Visual Studio Code](https://code.visualstudio.com/)
 - Video Editig : [Premiere Pro 2020](https://www.adobe.com/de/products/premiere.html)
-- Browser : [Opera GX](https://www.opera.com/gx)
+- Browser : [Opera GX](https://www.opera.com/)
 
 __Download Links__
 
