@@ -17,15 +17,19 @@ return
 ;------------------- G Keys on my Keyboard ------------------
 
 #IfWinNotExist
-^F1:: ;(G1) this script opens opera if its not opened and switch between tabs if opened
-IfWinNotExist, ahk_exe opera.exe
-	Run, opera.exe
-if WinActive("ahk_exe opera.exe")
-	Send ^{PgDn} 
-WinActivate ahk_exe opera.exe
+^F1:: ;(G1) opens my 1. workspace in opera
+Send, ^{Numpad1}
 return
 
-^F2:: ;(G2) this script opens spotify
+^F2:: ;(G2) opens my 2. workspace in opera
+Send, ^{Numpad2}
+return
+
+^F3:: ;(G3) opens my 3. workspace in opera
+Send, ^{Numpad3}
+return
+
+^F4:: ;(G4) this script opens spotify
 IfWinNotExist, ahk_exe spotify.exe
 	Run, C:\Users\Nutzer\AppData\Roaming\Spotify\Spotify.exe
 WinActivate, ahk_exe spotify.exe
