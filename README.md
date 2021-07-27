@@ -20,11 +20,20 @@ __My Equipment__
 - Cam : [Canon EOS 1300D](https://www.amazon.de/Canon-EOS-1300D-Spiegelreflexkamera-CMOS-Sensor/dp/B01CQPABLE) (With [EOS Webcam Utility](https://www.canon.de/cameras/eos-webcam-utility/))
 - Controller : [Xbox One Controller](https://www.amazon.de/Xbox-Wireless-Controller-für-Adapter/dp/B08JW5DR79/ref=sr_1_5?__mk_de_DE=ÅMÅŽÕÑ&dchild=1&keywords=xbox+controller&qid=1624222312&sr=8-5)
 
+__Portable Stuff__
+
+- Smartphone : [iPhone X](https://www.amazon.de/Apple-iPhone-64GB-Silver-Generalüberholt/dp/B0797RDXLD/ref=sr_1_12?__mk_de_DE=ÅMÅŽÕÑ&dchild=1&keywords=iphone+x&qid=1627398040&sr=8-12)
+- Tablet : [iPad Air 4](https://www.amazon.de/Neues-Apple-iPad-Air-Wi-Fi-64-GB/dp/B08J6QP7X1/ref=sr_1_4?__mk_de_DE=ÅMÅŽÕÑ&dchild=1&keywords=ipad&qid=1627398101&sr=8-4)
+- Headphones : [Airpods](https://www.amazon.de/Apple-AirPods-Ladecase-Neuestes-Modell/dp/B07PZR3PVB/ref=sr_1_3?__mk_de_DE=ÅMÅŽÕÑ&dchild=1&keywords=airpods&qid=1627398138&sr=8-3)
+- Powerbank : [Ravpower 26800mAh](https://www.ravpower.com/products/rp-pb41-26800mah-power-bank)
+- Watch : [Garmin Forerunner 735XT](https://www.amazon.de/Garmin-Forerunner-735XT-GPS-Uhr-schwarz-010-01614-06-Grau/dp/B01DWIY39A/ref=sr_1_2?__mk_de_DE=ÅMÅŽÕÑ&dchild=1&keywords=garmin+forerunner+735xt&qid=1627398366&sr=8-2)
+
 __Software I use__
 
 - Editor : [Visual Studio Code](https://code.visualstudio.com/)
 - Video Editig : [Premiere Pro 2020](https://www.adobe.com/de/products/premiere.html)
-- Browser : [Opera](https://www.opera.com/)
+- Browser : [Opera GX](https://www.opera.com/gx)
+
 
 __Download Links__
 
