@@ -26,7 +26,7 @@ Send, cls {enter}
 Return
 
 #Y:: ;
-WinActivate, ahk_exe opera.exe
+WinActivate, ahk_exe chrome.exe
 Send, ^h
 Send, ^a {BackSpace}{Space}und{Space}{Tab} 
 Send, ^a {BackSpace}{Space}&{Space}
