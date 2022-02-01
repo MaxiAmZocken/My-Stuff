@@ -17,7 +17,7 @@ WinActivate, ahk_exe sublime_text.exe
 return
 
 ;open terminal
-#C:: 
+#Y:: 
 Run, "C:\WINDOWS\system32\cmd.exe"
 Sleep, 500
 WinActivate ahk_exe cmd.exe
@@ -29,10 +29,13 @@ return
 
 ;open chrome and switch through tabs
 #IfWinActive
-#Y:: 
+#IfWinNotExist
+#C:: 
 IfWinActive, ahk_exe chrome.exe
 	Send, ^{Tab}
 WinActivate, ahk_exe chrome.exe
+IfWinNotExist, ahk_exe chrome.exe
+	Run, chrome.exe
 return
 
 ;get color
