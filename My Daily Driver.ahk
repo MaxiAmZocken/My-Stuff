@@ -45,7 +45,3 @@ PixelGetColor, FoundColor, %MousePos1X%, %MousePos1Y%, CoordMode
 Clipboard = %FoundColor%, %MousePos1X%, %MousePos1Y%
 MsgBox, Copied %FoundColor%, %MousePos1X%, %MousePos1Y% into Clipboard 
 return
-
-^!D::
-Run, D:\AHK\Disord Shortcuts\CopyPasta.ahk
-Return
