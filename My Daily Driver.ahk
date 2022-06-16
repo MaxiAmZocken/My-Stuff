@@ -1,7 +1,9 @@
-﻿;------------------- Modifications -------------------
+﻿#IfWinActive
+#IfWinNotExist
+
+;------------------- Modifications -------------------
 
 ;open vsc 
-#IfWinNotExist
 Scrolllock:: 
 IfWinNotExist, ahk_exe code.exe 
 	Run, "C:\Users\Nutzer\AppData\Local\Programs\Microsoft VS Code\Code.exe"
@@ -9,7 +11,6 @@ WinActivate, ahk_exe code.exe
 return
 
 ;open sublime text 
-#IfWinNotExist
 +Scrolllock::
 IfWinNotExist, ahk_exe sublime_text.exe 
 	Run, "C:\Program Files\Sublime Text\sublime_text.exe"
@@ -28,8 +29,6 @@ Send, cls {enter}
 return
 
 ;open chrome and switch through tabs
-#IfWinActive
-#IfWinNotExist
 #C:: 
 IfWinActive, ahk_exe chrome.exe
 	Send, ^{Tab}
@@ -43,5 +42,21 @@ return
 MouseGetPos, MousePos1X, MousePos1Y
 PixelGetColor, FoundColor, %MousePos1X%, %MousePos1Y%, CoordMode
 Clipboard = %FoundColor%, %MousePos1X%, %MousePos1Y%
-MsgBox, Copied %FoundColor%, %MousePos1X%, %MousePos1Y% into Clipboard 
+MsgBox, Copied %FoundColor%, %MousePos1X%, %MousePos1Y% into Clipboard
+return
+
+;upvote angi on discord
+^+Enter::
+WinActivate, ahk_exe discord.exe
+IfWinActive, ahk_exe discord.exe
+	Send, ^k
+	Send, mega bot
+	Sleep, 200
+	Send, {enter}
+	Sleep, 400
+	Send, {/}upvote{enter}
+	Sleep, 200
+	Send, angi{enter}{enter}
+IfWinNotExist, ahk_exe discord.exe
+	MsgBox, Discord not found`nPls open Discord manually
 return
