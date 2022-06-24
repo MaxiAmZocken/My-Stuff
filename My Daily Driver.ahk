@@ -44,19 +44,3 @@ PixelGetColor, FoundColor, %MousePos1X%, %MousePos1Y%, CoordMode
 Clipboard = %FoundColor%, %MousePos1X%, %MousePos1Y%
 MsgBox, Copied %FoundColor%, %MousePos1X%, %MousePos1Y% into Clipboard
 return
-
-;upvote angi on discord
-^+Enter::
-WinActivate, ahk_exe discord.exe
-IfWinActive, ahk_exe discord.exe
-	Send, ^k
-	Send, mega bot
-	Sleep, 200
-	Send, {enter}
-	Sleep, 400
-	Send, {/}upvote{enter}
-	Sleep, 200
-	Send, angi{enter}{enter}
-IfWinNotExist, ahk_exe discord.exe
-	MsgBox, Discord not found`nPls open Discord manually
-return
