@@ -44,3 +44,18 @@ PixelGetColor, FoundColor, %MousePos1X%, %MousePos1Y%, CoordMode
 Clipboard = %FoundColor%, %MousePos1X%, %MousePos1Y%
 MsgBox, Copied %FoundColor%, %MousePos1X%, %MousePos1Y% into Clipboard
 return
+
+;give member bonus xp
+;this script works most of the time, but sometimes discord takes a bit longer
+;or your computer is slower and you need to higher the sleep time
+#B::
+InputBox, username,, Please Enter a Username`n(Name needs to be close)
+WinActivate, ahk_exe discord.exe
+Send, /bonus member
+Sleep, 600
+Send, {enter}
+Sleep, 300
+Send, %username%{enter}
+Sleep, 200
+Send, give{enter}750{enter}
+return
