@@ -14,7 +14,7 @@ IfWinNotExist, ahk_exe sublime_text.exe
 WinActivate, ahk_exe sublime_text.exe
 return
 
-;open terminal
+;open terminal (with a few additions)
 #Y:: 
 Run, "C:\WINDOWS\system32\cmd.exe"
 Sleep, 500
@@ -34,7 +34,7 @@ IfWinNotExist, ahk_exe chrome.exe
 	Run, chrome.exe
 return
 
-;get color
+;get color and position of the current cursor position
 #Z:: 
 MouseGetPos, MousePos1X, MousePos1Y
 PixelGetColor, FoundColor, %MousePos1X%, %MousePos1Y%, CoordMode
@@ -58,7 +58,16 @@ Send, give{enter}750{enter}
 return
 
 ;mouse button 4 -> n (snapping) when davinci resolve is open
-#IfWinActive, ahk_exe resolve
+#IfWinActive, ahk_exe resolve.exe
 XButton2::
 Send, n
+return
+
+;csgo volume changer (my console key is "#" so this may needs to be changed)
+#IfWinActive, ahk_exe csgo.exe
+!1:: ;deathmath (chill) volume
+Send, ^A{BackSpace}{#}volume 0.1{enter}{Escape}
+return
+!2:: ;competitive volume
+Send, ^A{BackSpace}{#}volume 0.2{enter}{Escape}
 return
