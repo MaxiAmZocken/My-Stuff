@@ -1,7 +1,4 @@
-﻿#IfWinActive
-#IfWinNotExist
-
-;------------------- Modifications -------------------
+﻿;------------------- Modifications -------------------
 
 ;open vsc 
 Scrolllock:: 
@@ -58,4 +55,10 @@ Sleep, 300
 Send, %username%{enter}
 Sleep, 200
 Send, give{enter}750{enter}
+return
+
+;mouse button 4 -> n (snapping) when davinci resolve is open
+#IfWinActive, ahk_exe resolve
+XButton2::
+Send, n
 return
