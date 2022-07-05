@@ -1,9 +1,28 @@
 # Welcome
 Here you can find some stuff I programmed make some things work faster
 
-# How to use
+# How to install
 1. Install Autohotkey [here](https://www.autohotkey.com/)
 2. Download my Repository [here](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/MaxiAmZocken/My-Stuff)
 3. Run the file and edit it how you like
 
-Bonus : You can add it to your startup folder (press `Win+R` and type `shell:startup`) to run it automatically on boot
+*Bonus : You can add it to your startup folder (press `Win+R` and type `shell:startup`) to run it automatically on boot*
+
+# Functions
+`Win+T` -> open Visual Studio Code or activate it if in the background
+
+`Shift+Win+T` -> open Sublime Text or activate it if in the background
+
+`Win+C` -> open Google Chrome or activate it if in the background (if active, you can switch through tabs)
+
+`Win+X` -> open the terminal with green text and a custom title
+
+`Win+Z` -> get color and position of the current cursor position and copy to clipboard
+
+`Win+B` -> brings up a InputBox and after typing a username it pastes a command to give a user bonus xp in discord (pretty specific)
+
+`MButton 4` -> If Davinci Resolve is opened, the button is n and if not it stays MButton 
+
+`Alt+1` -> If csgo is opened, changes volume to 0.1
+
+`Alt+2` -> If csgo is opened, changes volume to 0.2

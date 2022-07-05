@@ -1,21 +1,21 @@
 ﻿;------------------- Modifications -------------------
 
-;open vsc 
-Scrolllock:: 
+;open vsc
+#t:: 
 IfWinNotExist, ahk_exe code.exe 
 	Run, "C:\Users\Nutzer\AppData\Local\Programs\Microsoft VS Code\Code.exe"
 WinActivate, ahk_exe code.exe
 return
 
 ;open sublime text 
-+Scrolllock::
++#t::
 IfWinNotExist, ahk_exe sublime_text.exe 
 	Run, "C:\Program Files\Sublime Text\sublime_text.exe"
 WinActivate, ahk_exe sublime_text.exe
 return
 
 ;open terminal (with a few additions)
-#Y:: 
+#X:: 
 Run, "C:\WINDOWS\system32\cmd.exe"
 Sleep, 500
 WinActivate ahk_exe cmd.exe
