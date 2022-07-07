@@ -70,8 +70,16 @@ return
 ;csgo volume changer (my console key is "#" so this may needs to be changed)
 #IfWinActive, ahk_exe csgo.exe
 !1:: ;deathmath (chill) volume
-Send, ^A{BackSpace}{#}volume 0.1{enter}{Escape}
+Send, {#}^A{BackSpace}volume 0.1{enter}{Escape}
 return
 !2:: ;competitive volume
-Send, ^A{BackSpace}{#}volume 0.2{enter}{Escape}
+Send, {#}^A{BackSpace}volume 0.2{enter}{Escape}
+return
+!3:: ;full focus volume
+Send, {#}^A{BackSpace}volume 0.25{enter}{Escape}
+return
+!0:: ;bind jumpthrow
+Send, {#}^A{BackSpace}
+SendRaw, alias "+jumpthrow" "+jump;-attack"; alias "-jumpthrow" "-jump"; bind mouse5 "+jumpthrow" 
+Send, {enter}{Escape}
 return
