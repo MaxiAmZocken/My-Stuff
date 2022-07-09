@@ -26,3 +26,7 @@ Here you can find some stuff I programmed make some things work faster
 `Alt+1` -> If csgo is opened, changes volume to 0.1
 
 `Alt+2` -> If csgo is opened, changes volume to 0.2
+
+`Alt+3` -> If csgo is opened, changes volume to 0.25
+
+`Alt+0` -> If csgo is opened, binds jumpthrow to mouse5
