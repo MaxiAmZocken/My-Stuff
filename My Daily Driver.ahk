@@ -1,7 +1,7 @@
 ﻿;------------------- Command List -------------------
 
-;Win+T -> open Visual Studio Code or activate it if in the background
-;Shift+Win+T -> open Sublime Text or activate it if in the background
+;Win+Y -> open Visual Studio Code or activate it if in the background
+;Shift+Win+Y -> open Sublime Text or activate it if in the background
 ;Win+C -> open Google Chrome or activate it if in the background (if active, you can switch through tabs)
 ;Win+X -> open the terminal with green text and a custom title
 ;Win+Z -> get color and position of the current cursor position and copy to clipboard
@@ -15,14 +15,14 @@
 ;------------------- Modifications -------------------
 
 ;open vsc
-#t:: 
+#y:: 
 IfWinNotExist, ahk_exe code.exe 
 	Run, "C:\Users\Nutzer\AppData\Local\Programs\Microsoft VS Code\Code.exe"
 WinActivate, ahk_exe code.exe
 return
 
 ;open sublime text 
-+#t::
++#y::
 IfWinNotExist, ahk_exe sublime_text.exe 
 	Run, "C:\Program Files\Sublime Text\sublime_text.exe"
 WinActivate, ahk_exe sublime_text.exe

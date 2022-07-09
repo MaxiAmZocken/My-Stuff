@@ -9,9 +9,9 @@ Here you can find some stuff I programmed make some things work faster
 *Bonus : You can add it to your startup folder (press `Win+R` and type `shell:startup`) to run it automatically on boot*
 
 # Functions
-`Win+T` -> open Visual Studio Code or activate it if in the background
+`Win+Y` -> open Visual Studio Code or activate it if in the background
 
-`Shift+Win+T` -> open Sublime Text or activate it if in the background
+`Shift+Win+Y` -> open Sublime Text or activate it if in the background
 
 `Win+C` -> open Google Chrome or activate it if in the background (if active, you can switch through tabs)
 
