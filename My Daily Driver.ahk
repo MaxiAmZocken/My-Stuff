@@ -10,6 +10,7 @@
 ;Alt+1 -> If csgo is opened, changes volume to 0.1
 ;Alt+2 -> If csgo is opened, changes volume to 0.2
 ;Alt+3 -> If csgo is opened, changes volume to 0.25
+;Alt+9 -> If csgo is opened and in private game, creates a game to train smokes (unlimited time+ammo)
 ;Alt+0 -> If csgo is opened, binds jumpthrow to mouse5
 
 ;------------------- Modifications -------------------
