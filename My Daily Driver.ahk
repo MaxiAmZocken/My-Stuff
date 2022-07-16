@@ -6,7 +6,7 @@
 ;Win+X -> open the terminal with green text and a custom title
 ;Win+Z -> get color and position of the current cursor position and copy to clipboard
 ;Win+B -> brings up a InputBox and after typing a username it pastes a command to give a user bonus xp in discord (pretty specific)
-;MButton 4 -> If Davinci Resolve is opened, the button is n and if not it stays MButton
+;MButton 4 -> If Davinci Resolve is opened, the button is n
 ;Alt+1 -> If csgo is opened, changes volume to 0.1
 ;Alt+2 -> If csgo is opened, changes volume to 0.2
 ;Alt+3 -> If csgo is opened, changes volume to 0.25
@@ -91,6 +91,13 @@ Send, {#}^A{BackSpace}volume 0.2{enter}{Escape}
 return
 !3:: ;full focus volume
 Send, {#}^A{BackSpace}volume 0.25{enter}{Escape}
+return
+!9:: ;create round with unlimited time and ammo + buy smoke
+Send, {#}^A{BackSpace}
+SendRaw, sv_cheats 1; mp_roundtime_defuse 60; mp_freezetime 0; sv_infinite_ammo 1; mp_buy_anywhere 1; sv_grenade_trajectory 1; mp_restartgame 1
+Send, {enter}
+Sleep, 2000
+Send, give weapon_smokegrenade{enter}{Escape}
 return
 !0:: ;bind jumpthrow
 Send, {#}^A{BackSpace}
