@@ -76,6 +76,19 @@ else {
 	}
 return
 
+;start a giveaway on the discord server with the new slash command
+#N::
+WinActivate, ahk_exe discord.exe
+Send, /gstart
+Sleep, 600
+Send, {enter}
+Sleep, 300
+Send, 5d{enter}
+Sleep, 200
+Send, 3{enter}
+Sleep, 200
+Send, <750>{enter}
+
 ;mouse button 4 -> n (snapping) when davinci resolve is open
 #IfWinActive, ahk_exe resolve.exe
 XButton2::
