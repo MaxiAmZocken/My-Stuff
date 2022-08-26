@@ -88,6 +88,13 @@ Sleep, 200
 Send, 3{enter}
 Sleep, 200
 Send, <750>{enter}
+return
+
+#s::
+WinActivate, ahk_exe Spotify.exe
+IfWinNotExist, ahk_exe Spotify.exe
+	Run, C:\Users\Nutzer\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Spotify
+return
 
 ;mouse button 4 -> n (snapping) when davinci resolve is open
 #IfWinActive, ahk_exe resolve.exe

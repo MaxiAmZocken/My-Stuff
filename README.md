@@ -15,11 +15,15 @@ Here you can find some stuff I programmed make some things work faster
 
 `Win+C` -> open Google Chrome or activate it if in the background (if active, you can switch through tabs)
 
+`Win+N` -> open Spotify or activate it if in the background
+
 `Win+X` -> open the terminal with green text and a custom title
 
 `Win+Z` -> get color and position of the current cursor position and copy to clipboard
 
 `Win+B` -> brings up a InputBox and after typing a username it pastes a command to give a user bonus xp in discord (pretty specific)
+
+`Win+N` -> Script to run discord Giveaways
 
 `MButton 4` -> If Davinci Resolve is opened, the button is n and if not it stays MButton 
 
