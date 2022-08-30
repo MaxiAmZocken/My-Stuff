@@ -15,6 +15,13 @@ The Scipt was created for my computer, which has 2 Monitors, this is pretty impo
 Everything should work fine, because the coordinates are bound to the window, but I can't guarantee for anything
 
 # Functions
+
+`Ctrl+Alt+1` -> Previous Song
+
+`Ctrl+Alt+2` -> Play/Pause Music
+
+`Ctrl+Alt+3` -> Next Song
+
 `Win+Y` -> open Visual Studio Code or activate it if in the background
 
 `Shift+Win+Y` -> open Sublime Text or activate it if in the background

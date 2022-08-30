@@ -5,6 +5,9 @@
 
 ;------------------- Command List -------------------
 
+;Ctrl+Alt+1 -> Previous Song
+;Ctrl+Alt+2 -> Play/Pause Music
+;Ctrl+Alt+3 -> Next Song
 ;Win+Y -> open Visual Studio Code or activate it if in the background
 ;Shift+Win+Y -> open Sublime Text or activate it if in the background
 ;Win+C -> open Google Chrome or activate it if in the background (if active, you can switch through tabs)
@@ -22,6 +25,21 @@
 ;Alt+0 -> If csgo is opened, binds jumpthrow to mouse5
 
 ;------------------- Modifications -------------------
+
+;previous track
+^!1::
+Send, {Media_Prev}
+return
+
+;play/pause
+^!2::
+Send, {Media_Play_Pause}
+return
+
+;next track
+^!3::
+Send, {Media_Next}
+return
 
 ;open vsc
 #y:: 
@@ -75,7 +93,7 @@ If(color2 == 0xFFFFFF)
 }
 Else
 {
-	ImageSearch, FoundImageX, FoundImageY, 0, 0, 1919, 1023, D:\Programming\Git\my-stuff\Servericon.png
+	ImageSearch, FoundImageX, FoundImageY, 0, 0, 1919, 1023, D:\Programming\Git\my-stuff\Resources\Servericon.png
 	FoundimageX += 20
 	FoundimageY += 20
 	Click, %FoundImageX%, %FoundImageY%
@@ -97,16 +115,15 @@ ToolTip,
 Send, /upvote
 loop
 {
-ImageSearch, FoundImageX, FoundImageY, 0, 0, 1919, 1023, D:\Programming\Git\my-stuff\UpvoteScreen.png
+ImageSearch, FoundImageX, FoundImageY, 0, 0, 1919, 1023, D:\Programming\Git\my-stuff\Resources\UpvoteScreen.png
 if (ErrorLevel = 2)
-    ToolTip, Still searching
+	Sleep, 100
 else if (ErrorLevel = 1)
-    ToolTip, Still searching
+	Sleep, 100
 else
     break
 }
 Send, {Tab}Angi{enter}{enter}
-ToolTip, 
 return
 
 ;give member bonus xp
