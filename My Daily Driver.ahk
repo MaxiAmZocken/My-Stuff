@@ -109,6 +109,7 @@ while(color != 0x252220)
 	Send, {WheelUp}
 }
 ToolTip, Found the highest Spot
+Sleep, 200
 Click, 198, 488
 Sleep, 200
 ToolTip, 
