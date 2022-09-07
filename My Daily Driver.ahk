@@ -75,6 +75,22 @@ Send, title Beautiful Terminal {enter}
 Send, cls {enter}
 return
 
+;open spotify and closes if click again
+#s::
+IfWinActive, ahk_exe Spotify.exe
+{
+	Send, #{Down}
+}
+IfWinNotActive, ahk_exe Spotify.exe
+{
+	WinActivate, ahk_exe Spotify.exe
+}
+IfWinNotExist, ahk_exe Spotify.exe
+{
+	Run, C:\Users\Nutzer\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Spotify
+}
+return
+
 ;get color and position of the current cursor position
 #Z:: 
 MouseGetPos, MousePos1X, MousePos1Y
@@ -158,12 +174,6 @@ Sleep, 200
 Send, 3{enter}
 Sleep, 200
 Send, <750>{enter}
-return
-
-#s::
-WinActivate, ahk_exe Spotify.exe
-IfWinNotExist, ahk_exe Spotify.exe
-	Run, C:\Users\Nutzer\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Spotify
 return
 
 ;mouse button 4 -> n (snapping) when davinci resolve is open
