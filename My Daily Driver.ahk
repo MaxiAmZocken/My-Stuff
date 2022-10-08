@@ -1,28 +1,6 @@
 ﻿;------------------- Informations -------------------
 
-;The Scipt was created for my computer, which has 2 Monitors, this is pretty important for the discord Scripts, because of the coordinates
-;Everything should work fine, because the coordinates are bound to the window, but I can't guarantee for anything
-
-;------------------- Command List -------------------
-
-;Ctrl+Alt+1 -> Previous Song
-;Ctrl+Alt+2 -> Play/Pause Music
-;Ctrl+Alt+3 -> Next Song
-;Win+Y -> open Visual Studio Code or activate it if in the background
-;Shift+Win+Y -> open Sublime Text or activate it if in the background
-;Win+C -> open Google Chrome or activate it if in the background (if active, you can switch through tabs)
-;Win+X -> open the terminal with green text and a custom title
-;Win+Z -> get color and position of the current cursor position and copy to clipboard
-;Win+U -> Smart Upvote Script for discord
-;Win+B -> brings up a InputBox and after typing a username it pastes a command to give a user bonus xp in discord (pretty specific)
-;Win+N -> Giveaway Command for Discord
-;Win+S -> open Spotify or activate it if in the background
-;MButton 4 -> If Davinci Resolve is opened, the button is n
-;Alt+1 -> If csgo is opened, changes volume to 0.1
-;Alt+2 -> If csgo is opened, changes volume to 0.2
-;Alt+3 -> If csgo is opened, changes volume to 0.25
-;Alt+9 -> If csgo is opened and in private game, creates a game to train smokes (unlimited time+ammo)
-;Alt+0 -> If csgo is opened, binds jumpthrow to mouse5
+;The Scipt was created for my computer, some things may not work but most will work just fine 
 
 ;------------------- Modifications -------------------
 
@@ -97,50 +75,6 @@ MouseGetPos, MousePos1X, MousePos1Y
 PixelGetColor, FoundColor, %MousePos1X%, %MousePos1Y%, CoordMode
 Clipboard = %FoundColor%, %MousePos1X%, %MousePos1Y%
 MsgBox, Copied %FoundColor%, %MousePos1X%, %MousePos1Y% into Clipboard
-return
-
-;upvote script for discord
-#u::
-WinActivate ahk_exe discord.exe
-PixelGetColor, color2, 1, 190
-If(color2 == 0xFFFFFF)
-{
-	ToolTip, Already in correct Discord Server
-}
-Else
-{
-	ImageSearch, FoundImageX, FoundImageY, 0, 0, 1919, 1023, D:\Programming\Git\my-stuff\Resources\Servericon.png
-	FoundimageX += 20
-	FoundimageY += 20
-	Click, %FoundImageX%, %FoundImageY%
-}
-Sleep, 400
-MouseMove, 192, 494
-Send, {WheelDown}
-Sleep, 200
-PixelGetColor, color, 338, 88
-while(color != 0x252220)
-{
-	PixelGetColor, color, 338, 88
-	Send, {WheelUp}
-}
-ToolTip, Found the highest Spot
-Sleep, 200
-Click, 198, 488
-Sleep, 200
-ToolTip, 
-Send, /upvote
-loop
-{
-ImageSearch, FoundImageX, FoundImageY, 0, 0, 1919, 1023, D:\Programming\Git\my-stuff\Resources\UpvoteScreen.png
-if (ErrorLevel = 2)
-	Sleep, 100
-else if (ErrorLevel = 1)
-	Sleep, 100
-else
-    break
-}
-Send, {Tab}Angi{enter}{enter}
 return
 
 ;give member bonus xp

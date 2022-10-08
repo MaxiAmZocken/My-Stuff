@@ -32,8 +32,6 @@ Everything should work fine, because the coordinates are bound to the window, bu
 
 `Win+Z` -> get color and position of the current cursor position and copy to clipboard
 
-`Win+U` -> Smart Upvote Script for discord
-
 `Win+B` -> brings up a InputBox and after typing a username it pastes a command to give a user bonus xp in discord (pretty specific)
 
 `Win+N` -> Script to run discord Giveaways
