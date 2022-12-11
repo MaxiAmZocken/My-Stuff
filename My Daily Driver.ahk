@@ -2,6 +2,11 @@
 
 ;The Scipt was created for my computer, some things may not work but most will work just fine 
 
+;^ = STRG/CTRL
+;# = WIN
+;+ = SHIFT
+;! = ALT
+
 ;------------------- Modifications -------------------
 
 ;previous track
@@ -22,7 +27,7 @@ return
 ;open vsc
 #y:: 
 IfWinNotExist, ahk_exe code.exe 
-	Run, "C:\Users\Nutzer\AppData\Local\Programs\Microsoft VS Code\Code.exe"
+	Run, code
 WinActivate, ahk_exe code.exe
 return
 
@@ -42,15 +47,9 @@ IfWinNotExist, ahk_exe chrome.exe
 	Run, chrome.exe
 return
 
-;open terminal (with a few additions)
+;open terminal
 #X:: 
-Run, "C:\WINDOWS\system32\cmd.exe"
-Sleep, 500
-WinActivate ahk_exe cmd.exe
-Send, C{ShiftDown}{.}{ShiftUp} {enter} cd users {enter} cd nutzer {enter}
-Send, color 0a {enter}
-Send, title Beautiful Terminal {enter}
-Send, cls {enter}
+Run, cmd.exe
 return
 
 ;open spotify and closes if click again
@@ -94,20 +93,6 @@ else {
 	Sleep, 200
 	Send, give{enter}750{enter}
 	}
-return
-
-;start a giveaway on the discord server with the new slash command
-#N::
-WinActivate, ahk_exe discord.exe
-Send, /gstart
-Sleep, 600
-Send, {enter}
-Sleep, 300
-Send, 5d{enter}
-Sleep, 200
-Send, 3{enter}
-Sleep, 200
-Send, <750>{enter}
 return
 
 ;mouse button 4 -> n (snapping) when davinci resolve is open
