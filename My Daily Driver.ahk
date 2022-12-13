@@ -54,18 +54,10 @@ return
 
 ;open spotify and closes if click again
 #s::
-IfWinActive, ahk_exe Spotify.exe
-{
-	Send, #{Down}
-}
 IfWinNotActive, ahk_exe Spotify.exe
-{
 	WinActivate, ahk_exe Spotify.exe
-}
 IfWinNotExist, ahk_exe Spotify.exe
-{
 	Run, C:\Users\Nutzer\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Spotify
-}
 return
 
 ;get color and position of the current cursor position
