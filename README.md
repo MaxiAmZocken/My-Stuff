@@ -16,11 +16,11 @@ Everything should work fine, because the coordinates are bound to the window, bu
 
 # Functions
 
-`Ctrl+Alt+1` -> Previous Song
+`Alt+1` -> Previous Song
 
-`Ctrl+Alt+2` -> Play/Pause Music
+`Alt+2` -> Play/Pause Music
 
-`Ctrl+Alt+3` -> Next Song
+`Alt+3` -> Next Song
 
 `Win+Y` -> open Visual Studio Code or activate it if in the background
 
@@ -30,13 +30,11 @@ Everything should work fine, because the coordinates are bound to the window, bu
 
 `Win+X` -> open the terminal with green text and a custom title
 
+`Win+S` -> open Spotify or activate it if in the background
+
 `Win+Z` -> get color and position of the current cursor position and copy to clipboard
 
 `Win+B` -> brings up a InputBox and after typing a username it pastes a command to give a user bonus xp in discord (pretty specific)
-
-`Win+N` -> Script to run discord Giveaways
-
-`Win+S` -> open Spotify or activate it if in the background
 
 `MButton 4` -> If Davinci Resolve is opened, the button is n and if not it stays MButton 
 

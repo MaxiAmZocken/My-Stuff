@@ -10,17 +10,17 @@
 ;------------------- Modifications -------------------
 
 ;previous track
-^!1::
+!1::
 Send, {Media_Prev}
 return
 
 ;play/pause
-^!2::
+!2::
 Send, {Media_Play_Pause}
 return
 
 ;next track
-^!3::
+!3::
 Send, {Media_Next}
 return
 
