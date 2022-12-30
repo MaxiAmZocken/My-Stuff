@@ -16,11 +16,11 @@ Everything should work fine, because the coordinates are bound to the window, bu
 
 # Functions
 
-`Alt+1` -> Previous Song
+`Win+1` -> Previous Song
 
-`Alt+2` -> Play/Pause Music
+`Win+2` -> Play/Pause Music
 
-`Alt+3` -> Next Song
+`Win+3` -> Next Song
 
 `Win+Y` -> open Visual Studio Code or activate it if in the background
 
