@@ -9,21 +9,6 @@
 
 ;------------------- Modifications -------------------
 
-;previous track
-#1::
-Send, {Media_Prev}
-return
-
-;play/pause
-#2::
-Send, {Media_Play_Pause}
-return
-
-;next track
-#3::
-Send, {Media_Next}
-return
-
 ;open vsc
 #y:: 
 IfWinNotExist, ahk_exe code.exe 
@@ -57,7 +42,7 @@ return
 IfWinNotActive, ahk_exe Spotify.exe
 	WinActivate, ahk_exe Spotify.exe
 IfWinNotExist, ahk_exe Spotify.exe
-	Run, C:\Users\Nutzer\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Spotify
+	Run, "C:\Users\maxi_\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Spotify.lnk"
 return
 
 ;get color and position of the current cursor position

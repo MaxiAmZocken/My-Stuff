@@ -16,12 +16,6 @@ Everything should work fine, because the coordinates are bound to the window, bu
 
 # Functions
 
-`Win+1` -> Previous Song
-
-`Win+2` -> Play/Pause Music
-
-`Win+3` -> Next Song
-
 `Win+Y` -> open Visual Studio Code or activate it if in the background
 
 `Shift+Win+Y` -> open Sublime Text or activate it if in the background
