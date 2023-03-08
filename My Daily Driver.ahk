@@ -7,6 +7,8 @@
 ;+ = SHIFT
 ;! = ALT
 
+;to make spotify work properly, you need to change "maxi_" to your username, which can be found at C:\Users\YOURUSERNAME
+
 ;------------------- Modifications -------------------
 
 ;open vsc
@@ -19,7 +21,7 @@ return
 ;open sublime text 
 +#y::
 IfWinNotExist, ahk_exe sublime_text.exe 
-	Run, "C:\Program Files\Sublime Text\sublime_text.exe"
+	Run, "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Sublime Text.lnk"
 WinActivate, ahk_exe sublime_text.exe
 return
 
@@ -37,12 +39,12 @@ return
 Run, cmd.exe
 return
 
-;open spotify and closes if click again
+;open spotify
 #s::
 IfWinNotActive, ahk_exe Spotify.exe
 	WinActivate, ahk_exe Spotify.exe
 IfWinNotExist, ahk_exe Spotify.exe
-	Run, "C:\Users\maxi_\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Spotify.lnk"
+	Run, "C:\Users\maxi_\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Spotify.lnk"      
 return
 
 ;get color and position of the current cursor position
