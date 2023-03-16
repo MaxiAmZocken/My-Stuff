@@ -83,23 +83,17 @@ return
 ;csgo volume changer (my console key is "#" so this may needs to be changed)
 #IfWinActive, ahk_exe csgo.exe
 !1:: ;deathmath (chill) volume
-Send, {#}^A{BackSpace}volume 0.1{enter}{Escape}
+Send, {#}^A{BackSpace}volume 0.12{enter}{Escape}
 return
 !2:: ;competitive volume
-Send, {#}^A{BackSpace}volume 0.2{enter}{Escape}
+Send, {#}^A{BackSpace}volume 0.18{enter}{Escape}
 return
 !3:: ;full focus volume
-Send, {#}^A{BackSpace}volume 0.25{enter}{Escape}
+Send, {#}^A{BackSpace}volume 0.22{enter}{Escape}
 return
-!9:: ;create round with unlimited time and ammo + buy smoke
-Send, {#}^A{BackSpace}
-SendRaw, sv_cheats 1; mp_roundtime_defuse 60; mp_freezetime 0; sv_infinite_ammo 1; mp_buy_anywhere 1; sv_grenade_trajectory 1; mp_restartgame 1
-Send, {enter}
-Sleep, 2000
-Send, give weapon_smokegrenade{enter}{Escape}
+!9:: ;create round with unlimited time and ammo + buy smoke --> script https://pastebin.com/Y0wnNkYE
+Send, {#}^A{BackSpace}exec{Space}training{enter}{Escape}
 return
-!0:: ;bind jumpthrow
-Send, {#}^A{BackSpace}
-SendRaw, alias "+jumpthrow" "+jump;-attack"; alias "-jumpthrow" "-jump"; bind mouse5 "+jumpthrow" 
-Send, {enter}{Escape}
+!0:: ;bind jumpthrow --> script https://pastebin.com/L5ytP2pF
+Send, {#}^A{BackSpace}exec{Space}jumpthrow{enter}{Escape}
 return
