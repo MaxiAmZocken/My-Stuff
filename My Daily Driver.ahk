@@ -83,10 +83,10 @@ return
 ;csgo volume changer (my console key is "#" so this may needs to be changed)
 #IfWinActive, ahk_exe csgo.exe
 !1:: ;deathmath (chill) volume
-Send, {#}^A{BackSpace}volume 0.12{enter}{Escape}
+Send, {#}^A{BackSpace}volume 0.07{enter}{Escape}
 return
 !2:: ;competitive volume
-Send, {#}^A{BackSpace}volume 0.18{enter}{Escape}
+Send, {#}^A{BackSpace}volume 0.19{enter}{Escape}
 return
 !3:: ;full focus volume
 Send, {#}^A{BackSpace}volume 0.22{enter}{Escape}
