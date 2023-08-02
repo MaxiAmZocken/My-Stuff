@@ -36,7 +36,9 @@ return
 
 ;open terminal
 #X:: 
-Run, cmd.exe
+WinActivate, ahk_exe cmd.exe
+IfWinNotExist, ahk_exe cmd.exe
+	Run, cmd.exe
 return
 
 ;open spotify
