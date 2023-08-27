@@ -1,5 +1,5 @@
 # Welcome
-Here you can find some stuff I programmed make some things work faster
+Here you can find some stuff I programmed to make some things work faster
 
 # How to install
 1. Install Autohotkey [here](https://www.autohotkey.com/)
