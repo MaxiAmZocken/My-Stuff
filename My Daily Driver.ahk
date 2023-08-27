@@ -15,7 +15,12 @@
 #y:: 
 IfWinNotExist, ahk_exe code.exe 
 	Run, code
-WinActivate, ahk_exe code.exe
+	WinWait, ahk_exe WindowsTerminal.exe
+	Sleep, 2000
+	Process, Close, WindowsTerminal.exe
+IfWinExist ahk_exe code.exe
+	IfWinNotActive, ahk_exe code.exe
+		WinActivate, ahk_exe code.exe
 return
 
 ;open sublime text 
@@ -37,6 +42,11 @@ return
 ;open terminal
 #X:: 
 Run, cmd.exe
+Sleep, 1000
+SendRaw, C:
+Send, {enter}
+SendRaw, cd C:\Users\maxi_
+Send, {enter}
 return
 
 ;open spotify
