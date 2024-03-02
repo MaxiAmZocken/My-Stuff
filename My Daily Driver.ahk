@@ -57,12 +57,9 @@ IfWinNotExist, ahk_exe Spotify.exe
 	Run, "C:\Users\maxi_\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Spotify.lnk"      
 return
 
-;get color and position of the current cursor position
-#Z:: 
-MouseGetPos, MousePos1X, MousePos1Y
-PixelGetColor, FoundColor, %MousePos1X%, %MousePos1Y%, CoordMode
-Clipboard = %FoundColor%, %MousePos1X%, %MousePos1Y%
-MsgBox, Copied %FoundColor%, %MousePos1X%, %MousePos1Y% into Clipboard
+;trigger sound device changer
+#b::
+Send, ^!{F11}
 return
 
 ;mouse button 4 -> n (snapping) when davinci resolve is open
